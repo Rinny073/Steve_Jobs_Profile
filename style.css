@@ -1,0 +1,45 @@
+body
+{
+	height:100%;
+	width:100%;
+	margin: 0 auto;
+}
+.background-image
+{
+	background: url("stevejobs.jpg") no-repeat center center;
+	background-size: cover;
+	height:100vh;
+}
+.col-style
+{
+	padding:40px;
+}
+.col-style>h3
+{
+	font-family: pacifico;
+	padding:30px 20px;
+}
+th
+{
+	border-bottom: 2px solid #666572;
+	width:120px;
+	text-align: center;
+}
+td
+{
+	border-bottom:1px solid #666572;
+	background-color: #f9f9f9;
+}
+.lead
+{
+	padding:0;
+	font-family: pacifico;
+	font-size: 2em;
+
+}
+.lead1
+{
+	padding-top:12px;
+	font-family: pacifico;
+	font-size: 2em;
+}
