@@ -4,12 +4,26 @@ body
 	width:100%;
 	margin: 0 auto;
 }
+/*.container-fluid
+{
+	padding:0;
+}*/
 .background-image
 {
-	background: url("stevejobs.jpg") no-repeat center center;
+	background: url("stevejobs.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height:100vh;
 }
+@media only screen and (max-width: 576px)
+{
+	.background-image
+	{
+		width:cover;
+	}
+}
+/*@media only screen and (max-width:767.98px) {
+body{background:pink};
+}*/
 .col-style
 {
 	padding:40px;
